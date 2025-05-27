@@ -1,6 +1,6 @@
 streamlit
 pandas
-tensorflow
+tensorflow-cpu
 opencv-python-headless
 Pillow
 pdf2image
