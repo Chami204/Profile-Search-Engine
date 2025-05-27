@@ -1,9 +1,9 @@
- streamlit
- pandas
- tf-nightly-cpu
- opencv-python-headless
- Pillow
- pdf2image
- streamlit-drawable-canvas
- watchdog
-+openpyxl
+streamlit
+pandas
+tf-nightly-cpu
+opencv-python-headless
+Pillow
+pdf2image
+streamlit-drawable-canvas
+watchdog
+openpyxl
