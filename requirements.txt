@@ -1,0 +1,8 @@
+streamlit
+pandas
+tensorflow
+opencv-python-headless
+Pillow
+pdf2image
+streamlit-drawable-canvas
+watchdog
