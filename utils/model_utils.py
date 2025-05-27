@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 # Load and preprocess Excel
-excel_path = "C:\Users\chami.gangoda\OneDrive - Hayleys Group\Desktop\Software creations\CNN model for search engine\data\profile summary.xls"
+excel_path = BASE_DIR / "data" / "profiles_data.xlsx"
 df = pd.read_excel(excel_path)
 df["Section Name"] = df["Section Name"].astype(str).str.strip()
 class_names = df["Section Name"].dropna().unique().tolist()
