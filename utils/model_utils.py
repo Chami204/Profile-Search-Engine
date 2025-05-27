@@ -24,3 +24,9 @@ def get_profile_data(profile_name):
     if match.empty:
         return None
     return match.iloc[0].to_dict()
+
+try:
+    df = pd.read_excel(excel_path)
+except Exception as e:
+    raise FileNotFoundError(f"Could not load Excel at {excel_path}: {e}")
+
